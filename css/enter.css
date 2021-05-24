@@ -1,0 +1,136 @@
+.wr-form {
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    background-color: #000000da;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.wr-form .form {
+    width: 500px;
+}
+img {
+    width:60px;
+    /* height:60px; */
+    position: relative;
+    top:30px;
+    left:60px;
+}
+.wr-form h2 {
+    font-family: "Bold";
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    top: 85px;
+    right: 156px;
+    letter-spacing: 0.1px;
+}
+.wr-form p {
+    font-size: 14px;
+    width: 432px;
+    position: relative;
+    top: 90px;
+    left: 46px;
+    line-height: 25px;
+    word-spacing: 0.3px;
+    letter-spacing: 0.1px;
+}
+.wr-form input[type=text], input[type=password], input[type=email] {
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 200px;
+    background-color: #212121;
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.wr-form input[type=email] {
+    top: 150px;
+    left: 60px;
+}
+.wr-form .login input[type=text] {
+    left: 60px;
+    top: -50px;
+}
+.wr-form .login_enter input[type=text] {
+    left: 60px;
+    top: 60px;
+}
+.wr-form .name input[type=text] {
+    left: 60px;
+    top: 40px;
+}
+.wr-form .pass input[type=password] {
+    left: 60px;
+    top: 85px;
+}
+.wr-form .pass_enter input[type=password] {
+    left: 60px;
+    top: 100px;
+}
+.wr-form .conf input[type=password] {
+    left: 60px;
+    top: 100px;
+}
+.wr-form input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+.wr-form input:valid:not(:placeholder-shown) {
+    background-color: rgb(119, 192, 119);
+}
+.wr-form input:invalid:not(:placeholder-shown) {
+    background-color: rgb(209, 83, 66);
+}
+.form {
+    display: inline-block;
+    position: relative;
+    bottom: 43px;
+}
+.p {
+    display: block;
+    margin-left: auto;
+    margin-top: 135px;
+    margin-right: auto;
+    border: 2px solid #ffffff;
+    width: 100px;
+    height: 27px;
+}
+.p:hover {
+    background: linear-gradient(45deg, #e4a982, #2aa0d6);
+    color:rgb(26, 6, 14);
+    border: 2px solid rgb(26, 6, 14);
+}
+.send input[type=submit]{
+    width: 100px;
+    height: 27px;
+    position: relative;
+    top: 170px;
+    left: 63px;
+}
+#submit_button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color:inherit;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+/* #submit_button:hover {
+    background: linear-gradient(45deg, #e4a982, #2aa0d6);
+} */
+.send-button button{
+    width: 100px;
+    height: 27px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    position: relative;
+    top: 97px;
+    left: 63px;
+}
+.send-button button:hover {
+    /* background: linear-gradient(45deg, #e4a982, #2aa0d6); */
+    color:rgb(26, 6, 14);
+    border: 2px solid #2aa0d6;
+}
